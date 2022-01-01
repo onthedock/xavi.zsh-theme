@@ -30,9 +30,6 @@ local user_host="${PR_USER}%F{cyan}${PR_HOST}"
 local current_dir="%B%F{blue}%~%f%b"
 local git_branch='$(git_prompt_info)'
 
-
-# PROMPT="╭─${user_host} 📂️${current_dir} (${git_branch})
-# ╰─$PR_PROMPT "
 PROMPT="${user_host} 📂️${current_dir} ${git_branch}
 $PR_PROMPT "
 RPROMPT="${return_code}"
@@ -41,13 +38,5 @@ ZSH_THEME_GIT_PROMPT_PREFIX="("
 ZSH_THEME_GIT_PROMPT_SUFFIX=")"
 ZSH_THEME_GIT_PROMPT_DIRTY=" 🚩️"
 ZSH_THEME_GIT_PROMPT_CLEAN=" ✅️"
-# # set the git_prompt_status text
-# ZSH_THEME_GIT_PROMPT_ADDED=" +"
-# ZSH_THEME_GIT_PROMPT_MODIFIED=" M"
-# ZSH_THEME_GIT_PROMPT_DELETED="%{$fg[red]%} ✗%{$reset_color%}"
-# ZSH_THEME_GIT_PROMPT_RENAMED="%{$fg[blue]%} ➦%{$reset_color%}"
-# ZSH_THEME_GIT_PROMPT_UNMERGED="%{$fg[magenta]%} ✂%{$reset_color%}"
-# ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[white]%} ✱%{$reset_color%}"
-
 
 }
