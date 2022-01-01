@@ -11,6 +11,8 @@ Modified version of the [gnzh](https://github.com/ohmyzsh/ohmyzsh/blob/master/th
   - "folder (📂️)" emoji prefixes current directory
   - Git repo status: clean ✅️ / dirty 🚩️
 
+![Screenshot](xavi.zsh-theme.png)
+
 ## Versión en castellano
 
 Versión modificada del tema [gnzh](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/gnzh.zsh-theme):
@@ -21,3 +23,5 @@ Versión modificada del tema [gnzh](https://github.com/ohmyzsh/ohmyzsh/blob/mast
   - Cambia el "triángulo hacia la derecha" por el *emoji* de la "mano señalando hacia la derecha (👉️)" como símbolo para el *prompt* para usuarios normales y por "😈️" para el usuario **root**
   - El *emoji* de "carpeta (📂️)" precede la ruta de la carpeta actual
   - Estado del repositorio de Git: limpio ✅️ / ficheros modificados 🚩️
+
+![Screenshot](xavi.zsh-theme.png)
